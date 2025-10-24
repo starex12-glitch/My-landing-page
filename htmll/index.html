@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Landing — Modern Landing Page</title>
+    <meta name="description" content="A clean responsive landing page built with HTML, CSS and JavaScript">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="#">
+                <img src="9394519.png" alt="Logo">
+            </a>
+
+            <nav class="site-nav" id="site-nav">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <p class="eyebrow">Welcome to my world</p>
+                    <h1>We build beautiful digital experiences</h1>
+                    <p class="lead">A modern, responsive landing page template. Use it as a starting point for your product, agency or portfolio website.</p>
+                    <div class="hero-cta">
+                        <a class="btn primary" id="cta-get-started" href="#contact">Get started</a>
+                        <a class="btn outline" href="#features">Learn more</a>
+                    </div>
+                </div>
+
+                <div class="hero-media">
+                    <img src="girl.png" alt="Illustration" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title">Features</h2>
+                <div class="cards">
+                    <article class="card">
+                        <h3>Responsive</h3>
+                        <p>Looks great on any device thanks to a flexible layout and sensible breakpoints.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Performance</h3>
+                        <p>Lightweight CSS and a tiny JavaScript file keep things fast.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Customizable</h3>
+                        <p>Easily change colors, text and imagery to match your brand.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container about-grid">
+                <div>
+                    <h2>About this template</h2>
+                    <p>This starter landing page includes a hero, feature cards and a contact area. It's intended as a simple base you can extend.</p>
+                </div>
+                <div>
+                    <img src="image.png" alt="Background" class="about-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <form id="contact-form" class="contact-form">
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" rows="5" placeholder="Message"></textarea>
+                    <button class="btn primary" type="submit">Send message</button>
+                </form>
+                <p id="form-status" class="form-status" aria-live="polite"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; <span id="year"></span> Your Company. All rights reserved.</p>
+            <div class="social">
+                <a href="#" aria-label="Twitter"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#" aria-label="Instagram"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#" aria-label="Facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="scripts.js" defer></script>
+</body>
+</html>
